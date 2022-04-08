@@ -1,0 +1,7 @@
+CHANGELOG.md
+README.md
+.idea/
+.github/
+node_modules/
+.dockerignore/
+Dockerfile
