@@ -1,6 +1,6 @@
 {
   "name": "pics",
-  "version": "0.1.0",
+  "version": "0.1.1-0",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
@@ -12,6 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "release": "standard-version",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -22,5 +23,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  }
 }
